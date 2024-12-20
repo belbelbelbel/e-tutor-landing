@@ -23,7 +23,7 @@ const Hero = () => {
               variants={SlideRight(0.6)}
               initial="hidden"
               animate="visible"
-              className="text-5xl font-semibold lg:text-6xl !leading-tight"
+              className="text-5xl font-semibold lg:text-6xl  text-white leading-tight"
             >
               Find Your Perfect <span className="text-primary">Tutor</span>
             </motion.h1>
@@ -31,6 +31,7 @@ const Hero = () => {
               variants={SlideRight(0.8)}
               initial="hidden"
               animate="visible"
+              className="text-white"
             >
               We help you find perfect tutor for 1-on-1 lessons. It is
               completely free and private
@@ -44,8 +45,8 @@ const Hero = () => {
             >
               <button className="primary-btn">Get Started</button>
               <button className="flex justify-end items-center gap-2 font-semibold">
-                <span className="w-10 h-10 bg-secondary/15 rounded-full flex justify-center items-center">
-                  <FaPlay className="text-secondary" />
+                <span className="w-10 h-10 bg-blue-800 rounded-full flex justify-center items-center">
+                  <FaPlay className="text-white" />
                 </span>
                 See how it works
               </button>

@@ -13,7 +13,7 @@ const Navbar = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.5 }}
       >
-        <div className="container flex justify-between items-center py-6">
+        <div className="container text-white flex justify-between items-center py-6">
           {/* Logo section */}
           <div className="text-2xl flex items-center gap-2 font-bold">
             <MdComputer className="text-3xl text-secondary" />
@@ -28,7 +28,7 @@ const Navbar = () => {
                   <li key={item.id}>
                     <a
                       href={item.link}
-                      className="inline-block text-gray-600 text-sm xl:text-base py-1 px-2 xl:px-3 hover:text-secondary transition-all duration-300 font-semibold"
+                      className="inline-block text-white text-sm xl:text-base py-1 px-2 xl:px-3 hover:text-secondary transition-all duration-300 font-semibold"
                     >
                       {item.title}
                     </a>

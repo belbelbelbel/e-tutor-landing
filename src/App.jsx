@@ -31,7 +31,7 @@ const BannerData2 = {
 
 const App = () => {
   return (
-    <main className="overflow-x-hidden">
+    <main className="overflow-x-hidden bg-black t">
       <Navbar />
       <NavbarBanner />
       <Hero />

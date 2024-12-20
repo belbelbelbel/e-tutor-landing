@@ -133,7 +133,6 @@ const Footer = () => {
             <div className="text-center py-6 border-t-2 border-gray-800/10">
               <span className="text-sm text-black/60">
                 {" "}
-                @copyright 2024 The Coding Journey
               </span>
             </div>
           </div>
